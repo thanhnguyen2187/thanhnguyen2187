@@ -1,8 +1,7 @@
-baseURL = "https://thanhnguyen2187.github.io/"
-# baseURL = ""
+baseURL      = "https://thanhnguyen2187.github.io/"
 languageCode = "en-us"
-title = "thanhnguyen2187's blog"
+title        = "thanhnguyen2187's blog"
 
-theme = "hello-friend"
+theme        = "hello-friend"
 
-include_toc = true
+include_toc  = true
