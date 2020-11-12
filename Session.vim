@@ -13,11 +13,12 @@ badd +5 ~/Projects/thanhnguyen2187/content/posts/living-the-terminal-dream.md
 badd +3 ~/Projects/thanhnguyen2187/archetypes/default.md
 badd +6 ~/Projects/thanhnguyen2187/content/gibberings/việt.md
 badd +6 ~/Projects/thanhnguyen2187/.tmuxp.yml
-badd +0 ~/Projects/thanhnguyen2187/readme.md
+badd +3 ~/Projects/thanhnguyen2187/readme.md
+badd +0 ~/Projects/thanhnguyen2187/config.toml
 argglobal
 %argdel
 $argadd content/posts/on-blogging.md
-edit ~/Projects/thanhnguyen2187/readme.md
+edit ~/Projects/thanhnguyen2187/config.toml
 set splitbelow splitright
 wincmd t
 set winminheight=0
