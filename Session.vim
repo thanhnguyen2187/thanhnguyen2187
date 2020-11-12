@@ -7,23 +7,18 @@ if expand('%') == '' && !&modified && line('$') <= 1 && getline(1) == ''
   let s:wipebuf = bufnr('%')
 endif
 set shortmess=aoO
-badd +20 ~/Projects/thanhnguyen2187/content/gibberings/descent-into-madness.md
-badd +9 ~/Projects/thanhnguyen2187/content/backlogs/chinese/characters.md
+badd +8 ~/Projects/thanhnguyen2187/content/gibberings/descent-into-madness.md
+badd +9 ~/Projects/thanhnguyen2187/content/backlogs/chinese.md
 argglobal
 %argdel
 $argadd content/posts/on-blogging.md
-edit ~/Projects/thanhnguyen2187/content/backlogs/chinese/characters.md
+edit ~/Projects/thanhnguyen2187/content/backlogs/chinese.md
 set splitbelow splitright
-wincmd _ | wincmd |
-vsplit
-1wincmd h
-wincmd w
 wincmd t
 set winminheight=0
 set winheight=1
 set winminwidth=0
 set winwidth=1
-wincmd =
 argglobal
 setlocal fdm=manual
 setlocal fde=0
@@ -40,26 +35,6 @@ exe s:l
 normal! zt
 9
 normal! 0
-wincmd w
-argglobal
-if bufexists("~/Projects/thanhnguyen2187/content/gibberings/descent-into-madness.md") | buffer ~/Projects/thanhnguyen2187/content/gibberings/descent-into-madness.md | else | edit ~/Projects/thanhnguyen2187/content/gibberings/descent-into-madness.md | endif
-setlocal fdm=manual
-setlocal fde=0
-setlocal fmr={{{,}}}
-setlocal fdi=#
-setlocal fdl=0
-setlocal fml=1
-setlocal fdn=20
-setlocal fen
-silent! normal! zE
-let s:l = 10 - ((9 * winheight(0) + 15) / 30)
-if s:l < 1 | let s:l = 1 | endif
-exe s:l
-normal! zt
-10
-normal! 0
-wincmd w
-wincmd =
 tabnext 1
 if exists('s:wipebuf') && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
   silent exe 'bwipe ' . s:wipebuf
