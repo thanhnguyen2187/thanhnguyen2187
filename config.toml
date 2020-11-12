@@ -1,0 +1,8 @@
+baseURL = "https://thanhnguyen2187.github.io/"
+# baseURL = ""
+languageCode = "en-us"
+title = "thanhnguyen2187's blog"
+
+theme = "hello-friend"
+
+include_toc = true
