@@ -7,7 +7,6 @@ summary: ""
 
 ## Backlog of Chinese characters
 
-
 ## Backlog of "ideas"
 
 ## Backlog of "learning"
