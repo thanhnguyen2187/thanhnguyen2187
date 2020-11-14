@@ -10,6 +10,10 @@ draft: true
 
 * 牙仕: nha sĩ
 * 邪魔外道: tà ma ngoại đạo
+    * 邪: tà
+    * 魔: ma
+        * 麻: ma
+        * 鬼: quỷ
     * 外: ngoại
     * 道: đạo
 * 名門正派: danh môn chính phái
