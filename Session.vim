@@ -9,10 +9,11 @@ endif
 set shortmess=aoO
 badd +8 ~/Projects/thanhnguyen2187/content/gibberings/descent-into-madness.md
 badd +14 ~/Projects/thanhnguyen2187/content/backlogs/chinese.md
+badd +0 ~/Projects/thanhnguyen2187/Session.vim
 argglobal
 %argdel
 $argadd content/posts/on-blogging.md
-edit ~/Projects/thanhnguyen2187/content/backlogs/chinese.md
+edit ~/Projects/thanhnguyen2187/Session.vim
 set splitbelow splitright
 wincmd t
 set winminheight=0
@@ -29,12 +30,12 @@ setlocal fml=1
 setlocal fdn=20
 setlocal fen
 silent! normal! zE
-let s:l = 14 - ((13 * winheight(0) + 15) / 30)
+let s:l = 53 - ((29 * winheight(0) + 15) / 30)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-14
-normal! 07|
+53
+normal! 0
 tabnext 1
 if exists('s:wipebuf') && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
   silent exe 'bwipe ' . s:wipebuf
