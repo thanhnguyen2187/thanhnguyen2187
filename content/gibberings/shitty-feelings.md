@@ -6,39 +6,38 @@ draft: true
 
 *fucking uneditted rough draft*
 
-What do you do when you feel shitty, I wonder? As for me, I do not know. I try
-listening to music, read stuff, build stuff, everything in the vainglory and
-faint hope of accomplishing somethig and make my life feel less empty. They
-rarely work, howver. I still feel shitty. What should I do, I ask myself.
+What do you do when you feel shitty, I wonder? As for me, I try listening to
+music, read stuff, build stuff, everything in the vainglory and faint hope of
+accomplishing something and make my life feel less empty. They rarely work,
+however. I still feel shitty. What should I do, I ask myself.
 
 I feel shitty from hard working days, and I did absolutely no progress at all.
 The only shit I have done is mostly from the others' work, and I only be there
 to mess shits up. I often say I am useless, and the feeling of it is truly
-worse.
+the worst.
 
 I feel shitty from the fact that I seem to have everything, but can achieve
-nothing in my life. I did not be too great at anything at all. The stuff I have
-done may look "special" ut they are boring, and useless, and do absolutely no
+nothing in my life. I was not too great at anything at all. The stuff I have
+done may look "special" but they are boring, and useless, and do absolutely no
 good, I think. I have worked at the place for more than two months, and I know
 the shit I am saying. I have to use a proxy for my work, which is... Ugh. Okay.
-I understand the kind of work and the kind o company, but it was not developer
+I understand the kind of work and the kind of company, but it was not developer
 friendly, I think. I have to use the company's laptop, which is even worse than
 the second hand one I bought a few years ago for my studying, and funnily
-eoughh. The laptop has small resolution, so the work I do with it is much
+enough. The laptop has small resolution, so the work I do with it is much
 harder. It also requires the administrator's approval to install stuff, so...
 You know how the feel it. You feel like you are a prison, forcing to do the
 labour because you did something wrong. It is a shitty feeling. The feeling also
 come from my boss. He was an okay dude, but gave me the task and than assume
 that I have all the information like him, and in the sense that everybody has
-ten years of expereince like him, with every inner knowledge, with every
+ten years of experience like him, with every inner knowledge, with every
 "special privilege". He was not a bad guy at all, but it truly make me feel not
 better than the last place I worked at. Why must the place combine the worst
 aspects. I work with no procedure at all. I have a task, and I can do whatever I
 want to finish it, but I have no knowledge of what has been done before, and
 what is the good way to do, and what would be the right way. You understand it.
-You feel like you are swimming in  a bottomless, shoreless ocean, and you will
-swim, swim, swim until you are drowned. It It was kind of shitty, do you think
-so?
+You feel like you are swimming in a bottomless, landless ocean, and you will
+swim, swim, swim until you are drowned. It is shitty.
 
 I feel shitty from the feel that I may not be important at all in this world,
 and there will be nobody remember me when I dide. And nobody care about my
