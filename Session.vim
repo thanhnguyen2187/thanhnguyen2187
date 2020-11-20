@@ -8,11 +8,13 @@ if expand('%') == '' && !&modified && line('$') <= 1 && getline(1) == ''
 endif
 set shortmess=aoO
 badd +7 ~/Projects/thanhnguyen2187/build_push.sh
-badd +0 ~/Projects/thanhnguyen2187/content/backlogs/to-do/voice-training.md
+badd +9 ~/Projects/thanhnguyen2187/content/backlogs/to-do/voice-training.md
+badd +26 ~/Projects/thanhnguyen2187/content/backlogs/chinese.md
+badd +29 ~/Projects/thanhnguyen2187/content/book-notes/never-split-the-difference.md
 argglobal
 %argdel
 $argadd content/posts/on-blogging.md
-edit ~/Projects/thanhnguyen2187/content/backlogs/to-do/voice-training.md
+edit ~/Projects/thanhnguyen2187/content/book-notes/never-split-the-difference.md
 set splitbelow splitright
 wincmd t
 set winminheight=0
@@ -29,12 +31,12 @@ setlocal fml=1
 setlocal fdn=20
 setlocal fen
 silent! normal! zE
-let s:l = 10 - ((9 * winheight(0) + 15) / 30)
+let s:l = 29 - ((19 * winheight(0) + 10) / 20)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-10
-normal! 0
+29
+normal! 02|
 tabnext 1
 if exists('s:wipebuf') && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
   silent exe 'bwipe ' . s:wipebuf
