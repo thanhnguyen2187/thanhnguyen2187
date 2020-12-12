@@ -6,3 +6,4 @@ summary: ""
 ---
 
 * https://www.nfx.com/post/15th-network-effect-tribal/
+* https://github.com/google/lisp-koans
