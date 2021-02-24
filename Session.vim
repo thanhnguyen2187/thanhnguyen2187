@@ -13,11 +13,12 @@ badd +27 content/backlogs/chinese.md
 badd +35 content/book-notes/never-split-the-difference.md
 badd +12 content/gibberings/oxytocin.md
 badd +4 content/backlogs/interesting-links.md
-badd +1 content/posts/angular-terms-simplified.md
+badd +4 content/posts/angular-terms-simplified.md
+badd +0 ~/Projects/thanhnguyen2187/content/posts/living-the-terminal-dream.md
 argglobal
 %argdel
 $argadd content/posts/on-blogging.md
-edit content/posts/angular-terms-simplified.md
+edit build_push.sh
 set splitbelow splitright
 wincmd t
 set winminheight=0
@@ -34,11 +35,11 @@ setlocal fml=1
 setlocal fdn=20
 setlocal fen
 silent! normal! zE
-let s:l = 10 - ((9 * winheight(0) + 16) / 33)
+let s:l = 3 - ((2 * winheight(0) + 16) / 33)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-10
+3
 normal! 0
 tabnext 1
 if exists('s:wipebuf') && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
