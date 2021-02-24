@@ -1,6 +1,6 @@
 #!/bin/sh
 
-hugo -D
+hugo
 
 git -C public add .
 git -C public commit -m "Build and commit and push automagically"
