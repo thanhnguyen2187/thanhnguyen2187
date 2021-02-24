@@ -12,4 +12,3 @@ Chắc các thứ sẽ tóm gọn lại thành một câu: "con tim đầy ốc-
 đi và thay bằng chữ "ch". Có thể mình đang tự an ủi bản thây vậy?
 
 Mệt vãi.
-
